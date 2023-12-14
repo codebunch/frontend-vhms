@@ -1,0 +1,31 @@
+.postcard-app {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    padding: 3rem;
+  }
+
+ .postcard-app-sub-item {
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+
+ .postcard-app-image {
+    width: 100%;
+    overflow: hidden;
+ }
+
+ .postcard-app-description {
+   display: grid;
+   gap: 1rem;
+   grid-template-columns: 1fr;
+ }
+
+ .postcard-app-description-item-1 {
+   padding-top: 1rem;
+   text-align: center;
+ }
+
+ .postcard-app-description-item-2 {
+   text-align: center;
+ }
